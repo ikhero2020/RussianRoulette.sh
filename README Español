@@ -1,0 +1,51 @@
+# Ruleta rusa.sh
+Un emocionante y peligroso juego de línea de comandos que simula la ruleta rusa con el sistema de archivos de tu sistema. Un movimiento en falso y se acabó
+la partida para tus datos.
+
+# ⚠️ ADVERTENCIA:
+Este script es **EXTREMADAMENTE PELIGROSO**. Contiene un comando que puede eliminar permanentemente TODOS los archivos de tu sistema si "pierdes"
+la partida. NO lo ejecutes en ningún sistema que contenga datos importantes y bajo tu propia responsabilidad. ⚠️
+
+# Cómo es
+El script simula un juego de ruleta rusa con una probabilidad de 1 entre 6 de activar un comando destructivo. Si el generador de números aleatorios arroja el
+valor 0, el script ejecuta un comando rm -rf --no-preserve-root / que elimina de forma recursiva y forzosa todos los archivos del sistema, comenzando por el
+directorio raíz.
+
+# Características
+Interfaz de línea de comandos sencilla
+1 entre 6 probabilidad de destrucción total del sistema
+Requiere el consentimiento explícito del usuario antes de continuar.
+Comprueba los privilegios de administrador (necesarios para el comando destructivo).
+
+# Requisitos
+Un sistema Linux, macOS u otro sistema similar a Unix.
+privilegios de root/sudo
+Valentía extrema o insensatez
+
+# Instalación
+Descarga RussianRoulette.sh
+
+Haz que el script sea ejecutable:
+
+chmod +x russian_roulette.sh
+
+Ejecuta el script con privilegios de administrador:
+
+sudo ./russian_roulette.sh
+
+Lea atentamente las advertencias.
+Escribe "acepto" (acepto) cuando se te solicite para continuar.
+Ora a tu deidad preferida.
+
+# Precauciones de seguridad
+NUNCA ejecute esto en un sistema de producción ni en ningún ordenador que contenga datos importantes.
+Utilice una máquina virtual o un contenedor desechable para realizar las pruebas.
+Crea copias de seguridad antes incluso de plantearte ejecutar esto.
+**El creador no se hace responsable de la pérdida de datos, la destrucción del sistema ni de los daños emocionales.**
+
+# Descargo de responsabilidad
+Este software se proporciona «tal cual», sin garantía de ningún tipo. Usted asume la totalidad del riesgo derivado de su uso.
+Si el software resultara defectuoso, usted asumirá el coste de cualquier servicio, reparación o corrección necesarios.
+En ningún caso el autor será responsable ante usted por daños, incluidos daños generales, especiales, incidentales o consecuenciales,
+derivados del uso o la imposibilidad de usar este software (incluyendo, entre otros, la pérdida de datos, la inexactitud de los datos,
+las pérdidas sufridas por usted o terceros, o la incompatibilidad del software con otros programas).
